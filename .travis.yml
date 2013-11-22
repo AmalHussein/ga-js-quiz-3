@@ -1,4 +1,4 @@
 language: ruby
 rvm:
-  - 1.9.3
-script: "rake phantomjs"
+  - "2.0.0"
+ script: bundle exec rspec spec
